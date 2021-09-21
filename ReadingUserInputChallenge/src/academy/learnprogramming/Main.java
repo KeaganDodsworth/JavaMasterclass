@@ -19,13 +19,13 @@ public class Main {
             if (isAnInt){
                 int number = scanner.nextInt();
                 sum +=  number;
-
+                counter ++;
 
             }else{
                 System.out.println("Invalid number");
             }
             scanner.nextLine();
-            counter ++;
+
         }
         System.out.println("Sum " + sum);
         scanner.close();
