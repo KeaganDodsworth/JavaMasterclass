@@ -1,9 +1,17 @@
 package academy.learnprogramming;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        int[] array = {1,2,3,4};
+        System.out.println("Array = " + Arrays.toString(array));
+
+        reverse(array);
+        System.out.println("Reversed Array = " + Arrays.toString(array));
+
     }
 
     public static void reverse(int[] array){
