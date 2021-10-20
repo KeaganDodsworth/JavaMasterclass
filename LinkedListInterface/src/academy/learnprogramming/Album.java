@@ -42,7 +42,7 @@ public class Album {
         return false;
     }
 
-    public boolean addToPlayList(String title, LinkedList<Song> playList) {
+    public boolean addToPlayList(String title, List<Song> playList) {
         Song checkedSong = findSong(title);
         if(checkedSong != null) {
             playList.add(checkedSong);

@@ -32,7 +32,7 @@ public class Main {
         album.addSong("Night of the long knives", 5.12);
         albums.add(album);
 
-        LinkedList<Song> playList = new LinkedList<Song>();
+        List<Song> playList = new ArrayList<Song>();
         albums.get(0).addToPlayList("You can't do it right", playList);
         albums.get(0).addToPlayList("Holy man", playList);
         albums.get(0).addToPlayList("Speed king", playList);  // Does not exist
@@ -49,7 +49,7 @@ public class Main {
 
     }
 
-    private static void play(LinkedList<Song> playList) {
+    private static void play(List<Song> playList) {
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
         boolean forward = true;
@@ -152,7 +152,7 @@ public class Main {
     }
 
 
-    private static void printList(LinkedList<Song> playList) {
+    private static void printList(List<Song> playList) {
         Iterator<Song> iterator = playList.iterator();
         System.out.println("================================");
         while(iterator.hasNext()) {
