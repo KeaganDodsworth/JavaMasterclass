@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="529c1ac8-509f-421c-9800-2ceeae2a497c" name="Default" comment="update" />
+    <list default="true" id="529c1ac8-509f-421c-9800-2ceeae2a497c" name="Default" comment="update">
+      <change beforePath="$PROJECT_DIR$/../LinkedListChallenge/out/production/LinkedListChallenge/com/timbuchalka/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedListChallenge/out/production/LinkedListChallenge/academy/learnprogramming/Album.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedListChallenge/out/production/LinkedListChallenge/com/timbuchalka/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedListChallenge/out/production/LinkedListChallenge/academy/learnprogramming/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedListChallenge/out/production/LinkedListChallenge/com/timbuchalka/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedListChallenge/out/production/LinkedListChallenge/academy/learnprogramming/Song.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
